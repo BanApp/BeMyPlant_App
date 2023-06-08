@@ -78,7 +78,6 @@ class LoginFragment : Fragment() {
     private fun getLoginData(): LoginData {
         val username = binding.editText1.text.toString()
         val password = binding.editText2.text.toString()
-
         return LoginData(username, password)
     }
     private fun login(loginData: LoginData){
