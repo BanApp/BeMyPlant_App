@@ -23,9 +23,9 @@
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/iSFragment2"
-        android:name="com.example.bemyplant.fragment.iSFragment"
+        android:name="com.example.bemyplant.fragment.ImageSelectFragment"
         android:label="fragment_i_s"
-        tools:layout="@layout/fragment_i_s" >
+        tools:layout="@layout/fragment_image_select" >
         <action
             android:id="@+id/action_iSFragment2_to_sRFragment"
             app:destination="@id/sRFragment" />
@@ -77,18 +77,18 @@
     </fragment>
     <fragment
         android:id="@+id/s1Fragment"
-        android:name="com.example.bemyplant.fragment.s1Fragment"
+        android:name="com.example.bemyplant.fragment.SignUp1Fragment"
         android:label="fragment_s1"
-        tools:layout="@layout/fragment_s1" >
+        tools:layout="@layout/fragment_sign_up1" >
         <action
             android:id="@+id/action_s1Fragment_to_s2Fragment"
             app:destination="@id/s2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/s2Fragment"
-        android:name="com.example.bemyplant.fragment.s2Fragment"
+        android:name="com.example.bemyplant.fragment.SignUp2Fragment"
         android:label="fragment_s2"
-        tools:layout="@layout/fragment_s2" >
+        tools:layout="@layout/fragment_sign_up2" >
         <action
             android:id="@+id/action_s2Fragment_to_pRFragment"
             app:destination="@id/pRFragment" />
@@ -104,9 +104,9 @@
     </fragment>
     <fragment
         android:id="@+id/pRFragment"
-        android:name="com.example.bemyplant.fragment.pRFragment"
+        android:name="com.example.bemyplant.fragment.PlantRegisterRFragment"
         android:label="fragment_p_r"
-        tools:layout="@layout/fragment_p_r" >
+        tools:layout="@layout/fragment_plant_register" >
         <action
             android:id="@+id/action_pRFragment_to_iSFragment2"
             app:destination="@id/iSFragment2" />
