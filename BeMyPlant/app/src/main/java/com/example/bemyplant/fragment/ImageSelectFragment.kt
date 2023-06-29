@@ -34,7 +34,7 @@ class ImageSelectFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        binding.button1.setOnClickListener {
+        binding.finishButton.setOnClickListener {
             findNavController().navigate(R.id.action_iSFragment2_to_sRFragment)
         }// Inflate the layout for this fragment
         return binding.root
